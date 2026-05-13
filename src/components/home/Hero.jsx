@@ -188,7 +188,7 @@ const Hero = () => {
                                         >
                                             <div className="aspect-square bg-gradient-to-br from-orange-400 to-pink-500 rounded-lg mb-3 flex items-center justify-center">
                                                 <img
-                                                    src={`http://localhost:5000/uploads/${images[item - 1]}`}
+                                                    src={`http://import.meta.env.VITE_API_URL/uploads/${images[item - 1]}`}
                                                     alt="Indian Stamp"
                                                     className="w-full h-full object-cover"
                                                 />

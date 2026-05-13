@@ -1,6 +1,6 @@
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
+export const API_URL = import.meta.env.VITE_API_URL || 'http://import.meta.env.VITE_API_URL/api'
 export const APP_NAME = import.meta.env.VITE_APP_NAME || 'Digital Philately Platform'
-export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000'
+export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://import.meta.env.VITE_API_URL'
 
 export const STAMP_CATEGORIES = [
     'Independence',

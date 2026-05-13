@@ -27,7 +27,7 @@ npm run dev
 
 Create a `.env` file in the root directory:
 ```
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=http://import.meta.env.VITE_API_URL/api
 VITE_APP_NAME=Digital Philately Platform
 ```
 
