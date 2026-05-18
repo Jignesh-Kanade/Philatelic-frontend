@@ -29,12 +29,12 @@ ChartJS.register(
 
 const Dashboard = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false)
-    // const [stats, setStats] = useState({
-    //     totalRevenue: 125000,
-    //     totalOrders: 245,
-    //     totalUsers: 1850,
-    //     totalProducts: 487
-    // })
+    const [stats, setStats] = useState({
+        totalRevenue: 125000,
+        totalOrders: 245,
+        totalUsers: 1850,
+        totalProducts: 487
+    })
 
     useEffect(() => {
         loadStats()
