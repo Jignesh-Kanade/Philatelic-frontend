@@ -69,7 +69,7 @@ const Dashboard = () => {
             {
                 label: 'Orders',
                 data: [12, 19, 15, 25, 22, 30, 28],
-                backgroundColor: 'rgba(6, 132, 199, 0.8)',
+                backgroundColor: 'rgba(6, 132, 199, 0.1)',
             },
         ],
     }
